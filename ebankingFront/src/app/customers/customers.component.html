@@ -1,0 +1,54 @@
+<div class="container mt-2">
+  <ng-container *ngIf="customers | async as listCustomers; else failureOrLoading">
+    <div class="card">
+      <div class="card-header">Customers</div>
+      <div class="card-body">
+        <!--   Avec le searchFormGroup qui a ete declarer dans le composant comme undifined, on fait un *ngIf pour tester     -->
+        <div *ngIf="searchFormGroup">
+<!--          {{this.searchFormGroup.value | json}}-->
+          <form [formGroup]="searchFormGroup" (ngSubmit)="handleSearchCustomer()">
+            <div class="input-group">
+              <label class="input-group-text">Keyword : </label>
+              <input type="text" formControlName = "keyword" class="form-control">
+              <button class="btn btn-info"><i class="bi bi-search"></i></button>
+            </div>
+          </form>
+        </div>
+        <table class="table">
+          <thead>
+          <tr>
+            <td>ID</td><td>Name</td><td>Email</td>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let c of customers | async">
+            <td>{{c.id}}</td>
+            <td>{{c.name}}</td>
+            <td>{{c.email}}</td>
+            <td>
+              <button (click)="handleDeleteCustomer(c)" class="btn btn-danger">
+                <i class="bi bi-trash"></i>
+              </button>
+            </td>
+            <td>
+              <button (click)="handleCustomerAccount(c)" class="btn btn-success">Account</button>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </ng-container>
+  <ng-template #failureOrLoading>
+    <ng-container *ngIf="errorMessage; else loading">
+      <div class="text-danger">
+        {{errorMessage}}
+      </div>
+    </ng-container>
+    <ng-template #loading>
+      <!--  On peut mettre un progressBar    -->
+      Loading ......
+    </ng-template>
+  </ng-template>
+
+</div>

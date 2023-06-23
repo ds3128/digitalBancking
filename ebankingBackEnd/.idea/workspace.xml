@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2678419-0ddd-4922-b40f-fe91319d142e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/EbankingBackEndApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/AccountHistoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/AccountOperationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/BankAccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/CreditDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/CurrentBankAccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/DebitDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/SavingBankAccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/TransferRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/entities/AccountOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/entities/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/entities/CurrentAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/entities/SavingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/enums/AccountStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/enums/OperationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/exceptionns/BalanceNotSufficientException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/exceptionns/BankAccountNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/exceptionns/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/mappers/BankAccountMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/repositories/AccountOperationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/repositories/BankAccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/services/BankAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/services/BankAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/services/BankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/web/BankAccountRestAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/web/CustomerRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sid/ebankingbackend/EbankingBackEndApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2MkrKAGGRN9eeF8nRSoGfaJb99V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dariu/IdeaProjects/ebankingBackEnd&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;55293be243a16edc1c52544f76479623&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.sid.ebankingbackend.exceptionns" />
+      <recent name="org.sid.ebankingbackend.enums" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.sid.ebankingbackend.dtos" />
+      <recent name="org.sid.ebankingbackend.mappers" />
+      <recent name="org.sid.ebankingbackend.repositories" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EbankingBackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ebankingBackEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.ebankingbackend.EbankingBackEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2678419-0ddd-4922-b40f-fe91319d142e" name="Changes" comment="" />
+      <created>1678322358625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678322358625</updated>
+      <workItem from="1678322361067" duration="12181000" />
+      <workItem from="1678360141500" duration="26604000" />
+      <workItem from="1678393960093" duration="37793000" />
+      <workItem from="1678824937282" duration="674000" />
+      <workItem from="1678826615908" duration="1323000" />
+      <workItem from="1678860420660" duration="599000" />
+      <workItem from="1678865446083" duration="45000" />
+      <workItem from="1678865806047" duration="599000" />
+      <workItem from="1678870970530" duration="442000" />
+      <workItem from="1678884849596" duration="1704000" />
+      <workItem from="1678902434796" duration="129000" />
+      <workItem from="1680181033549" duration="66000" />
+      <workItem from="1680303354596" duration="115000" />
+      <workItem from="1680328671172" duration="292000" />
+      <workItem from="1680328975577" duration="956000" />
+      <workItem from="1680329946782" duration="1162000" />
+      <workItem from="1680332948446" duration="5000" />
+      <workItem from="1680336825537" duration="897000" />
+      <workItem from="1681398065888" duration="38000" />
+      <workItem from="1681402392633" duration="31000" />
+      <workItem from="1681456920320" duration="60000" />
+      <workItem from="1681903399891" duration="320000" />
+      <workItem from="1681968028554" duration="637000" />
+      <workItem from="1682579582437" duration="242000" />
+      <workItem from="1682784871893" duration="1029000" />
+      <workItem from="1682790456712" duration="13311000" />
+      <workItem from="1682937505258" duration="1272000" />
+      <workItem from="1683048095678" duration="2068000" />
+      <workItem from="1683096650200" duration="6651000" />
+      <workItem from="1683223864968" duration="1333000" />
+      <workItem from="1683361238910" duration="1886000" />
+      <workItem from="1683579462811" duration="4766000" />
+      <workItem from="1684247194408" duration="1541000" />
+      <workItem from="1686874495673" duration="290000" />
+      <workItem from="1687414907468" duration="5570000" />
+      <workItem from="1687464669577" duration="5164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
