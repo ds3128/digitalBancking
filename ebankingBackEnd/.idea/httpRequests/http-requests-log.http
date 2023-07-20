@@ -1,0 +1,92 @@
+GET http://localhost:8099/auth/profile
+Authorization: Basic dXNlcjE6MTIzNDU=
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8099/auth/profile
+Authorization: Basic YWRtaW46MTIzNDU=
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8099/customers
+Accept: application/json
+Authorization: Basic YWRtaW46MTIzNDU=
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-20T112856.200.json
+
+###
+
+GET http://localhost:8099/auth/profile
+Authorization: Basic YWRtaW46MTIzNDU=
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8099/auth/profile
+Authorization: Basic YWRtaW46MTIzNDU=
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8099/auth/profile
+Authorization: Basic YWRtaW46MTIzNDU=
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8099/auth/profile
+Authorization: Basic YWRtaW46MTIzNDU=
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-20T112436.404.json
+
+###
+
+GET http://localhost:8099/customers
+Accept: application/json
+Authorization: Basic YWRtaW46MTIzNDU=
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-20T112233.200.json
+
+###
+
+GET http://localhost:8099/customers
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNDU=
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-20T112137.200.json
+
+###
+
+GET http://localhost:8099/customers
+Accept: application/json
+Authorization: Basic user1:12345
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+

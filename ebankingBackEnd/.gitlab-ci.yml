@@ -1,0 +1,54 @@
+# .gitlab-ci.yml
+
+# Spécifier l'image Docker utilisée pour exécuter les jobs (optionnel)
+image: maven:latest
+
+# Définition des étapes du pipeline
+stages:
+  - test
+  - build
+  - deploy
+
+# Les jobs sous chaque étape
+test:
+  stage: test
+  script:
+    - mvn test
+  tags:
+    - test_runner
+
+build:
+  stage: build
+  script:
+    # Construire l'application
+    - mvn package -DskipTests
+  tags:
+    - test_runner
+
+dockerized:
+  stage: dockerized
+  script:
+    # Créer l'image Docker
+    - docker build -t ebankingBackEnd:latest .
+  tags:
+    - test_runner
+
+  # Si vous avez besoin d'utiliser le Docker Daemon pour construire l'image Docker (optionnel)
+  # services:
+  #   - docker:dind
+
+deploy:
+  stage: deploy
+  script:
+    - docker-compose up -d
+  tags:
+    - test_runner
+  # Déployer l'application sur votre infrastructure (utilisez les commandes spécifiques à votre environnement)
+  # Assurez-vous d'avoir configuré les variables d'environnement nécessaires pour le déploiement.
+
+  # Vous pouvez également définir des balises pour que certaines étapes s'exécutent uniquement sur des runners spécifiques.
+  # Par exemple :
+  # tags:
+  #   - docker
+  # Cela exécutera l'étape "dockerize" sur un runner avec l'étiquette "docker".
+

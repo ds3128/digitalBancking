@@ -26,10 +26,10 @@ import java.util.stream.Collectors;
 @Slf4j
 public class BankAccountServiceImpl implements BankAccountService{
 
-    private CustomerRepository customerRepository;
-    private BankAccountRepository bankAccountRepository;
-    private AccountOperationRepository accountOperationRepository;
-    private BankAccountMapperImpl dtoMapper;
+    private final CustomerRepository customerRepository;
+    private final BankAccountRepository bankAccountRepository;
+    private final AccountOperationRepository accountOperationRepository;
+    private final BankAccountMapperImpl dtoMapper;
 
     public BankAccountServiceImpl(CustomerRepository customerRepository, BankAccountRepository bankAccountRepository, AccountOperationRepository accountOperationRepository, BankAccountMapperImpl dtoMapper) {
         this.customerRepository = customerRepository;
@@ -62,7 +62,6 @@ public class BankAccountServiceImpl implements BankAccountService{
     }
     @Override
     public void deleteCustomer(Long customerId){
-
         customerRepository.deleteById(customerId);
     }
     @Override

@@ -5,43 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2678419-0ddd-4922-b40f-fe91319d142e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/EbankingBackEndApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/AccountHistoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/AccountOperationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/BankAccountDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/CreditDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/CurrentBankAccountDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/CustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/DebitDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/SavingBankAccountDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/dtos/TransferRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/entities/AccountOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/entities/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/entities/CurrentAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/entities/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/entities/SavingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/enums/AccountStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/enums/OperationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/exceptionns/BalanceNotSufficientException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/exceptionns/BankAccountNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/exceptionns/CustomerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/mappers/BankAccountMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/repositories/AccountOperationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/repositories/BankAccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/repositories/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/services/BankAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/services/BankAccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/services/BankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/web/BankAccountRestAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/ebankingbackend/web/CustomerRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sid/ebankingbackend/EbankingBackEndApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebankingFront/src/app/accounts/accounts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ebankingFront/src/app/accounts/accounts.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebankingFront/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ebankingFront/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebankingFront/src/app/services/accounts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ebankingFront/src/app/services/accounts.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebankingFront/src/app/services/customer.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ebankingFront/src/app/services/customer.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,28 +39,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dariu/IdeaProjects/ebankingBackEnd&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;55293be243a16edc1c52544f76479623&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/dariu/IdeaProjects/digitalBanking/ebankingFront",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "55293be243a16edc1c52544f76479623",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.sid.ebankingbackend.exceptionns" />
       <recent name="org.sid.ebankingbackend.enums" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dariu\IdeaProjects\digitalBanking\ebankingBackEnd" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.sid.ebankingbackend.dtos" />
@@ -101,7 +77,13 @@
       <recent name="org.sid.ebankingbackend.repositories" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.EbankingBackEndApplication">
+    <configuration name="rest-api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="EbankingBackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ebankingBackEnd" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.ebankingbackend.EbankingBackEndApplication" />
@@ -109,6 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api | #2" />
+        <item itemvalue="HTTP Request.rest-api | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -154,6 +142,19 @@
       <workItem from="1686874495673" duration="290000" />
       <workItem from="1687414907468" duration="5570000" />
       <workItem from="1687464669577" duration="5164000" />
+      <workItem from="1687534636656" duration="3146000" />
+      <workItem from="1687593477596" duration="492000" />
+      <workItem from="1687594927343" duration="28000" />
+      <workItem from="1687803626341" duration="86000" />
+      <workItem from="1687803987351" duration="92000" />
+      <workItem from="1688598175166" duration="1774000" />
+      <workItem from="1688600494044" duration="6468000" />
+      <workItem from="1688659502887" duration="1311000" />
+      <workItem from="1688676806776" duration="7664000" />
+      <workItem from="1689732393515" duration="340000" />
+      <workItem from="1689831567632" duration="22000" />
+      <workItem from="1689831676567" duration="3370000" />
+      <workItem from="1689846068363" duration="9420000" />
     </task>
     <servers />
   </component>
